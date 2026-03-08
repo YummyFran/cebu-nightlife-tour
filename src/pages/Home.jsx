@@ -6,7 +6,6 @@ const Home = () => {
     <div className='main'>
         <Nav />
         <div className="container">
-            <h1 className='title'>세부밤문화를 즐기는 3가지 방법</h1>
             <p className='subtitle'>아래 메인홈페이지 링크(사진)클릭하시고 <br /> 세부밤문화 정보 얻어가세요</p>
             <a href="https://cebunightguide.com" target='_blank'>
                 <img src={'/banner.png'} alt="banner" className='banner clickable' />
@@ -15,8 +14,8 @@ const Home = () => {
 
             <p className='line'>많은 분들이 필리핀을 방문하고자 하실때</p>
             <p className='line'>가장 궁금해 하는 두가지 일거라 생각합니다</p>
-            <p className='line'>그럼 필리핀 여자는 우리나라와 비교해서 필리핀 밤문화는</p>
-            <p className='line'>우리나라와 비교하면 어떤 차이가 있고 무엇이 좋고 나쁜지</p>
+            <p className='line'>그럼 필리핀 여자는 우리나라와 <br />비교해서 필리핀 밤문화는</p>
+            <p className='line'>우리나라와 비교하면 어떤 차이가 있고 <br />무엇이 좋고 나쁜지</p>
             <p className='line'>미리 알고 가면 현지에서 좀더 좋은 도움이 되겠죠?</p>
 
             <img src="/banner1.jpg" alt="banner1" className='banner'/>
