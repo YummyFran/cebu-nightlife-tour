@@ -77,7 +77,7 @@ const Home = () => {
             <p className='line'>단독 숙소를 이용해서 프라이빗하게  편히</p>
             <p className='line'>쉬었다가는 패키지 코스를 많이 즐겨 찾으십니다.</p>
             <p className='line'>​필리핀 여자를 알고 필리핀 <br />밤문화를 조금만 습득하신다면</p>
-            <p className='line'>짧은 필리핀 밤문화 자유여행 <br />일정 동안 내상 입지 않고</p>
+            <p className='line'>짧은 필리핀 밤문화 자유여행 <br />  일정 동안 내상 입지 않고</p>
             <p className='line'>좋은 추억 남기실 겁니다.</p>
             <p className='line'>그 나라 문화를 알고 언어를 조금만 습득하신다면</p>
             <p className='line'>서로에게 피해를 주지 않고 잊지 못할 추억 만드실 수 있으실겁니다.</p>
