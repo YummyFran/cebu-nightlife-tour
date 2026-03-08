@@ -7,7 +7,7 @@ const Home = () => {
         <Nav />
         <div className="container">
             <h1 className='title'>세부밤문화를 즐기는 3가지 방법</h1>
-            <p className='subtitle'>아래 메인홈페이지 링크클릭하시고 세부밤문화 정보 얻어가세요</p>
+            <p className='subtitle'>아래 메인홈페이지 링크(사진)클릭하시고 <br /> 세부밤문화 정보 얻어가세요</p>
             <a href="https://cebunightguide.com" target='_blank'>
                 <img src={'/banner.png'} alt="banner" className='banner clickable' />
             </a>
