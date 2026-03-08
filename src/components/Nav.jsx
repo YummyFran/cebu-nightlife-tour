@@ -1,14 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router'
+import { NavLink } from 'react-router'
 
 const Nav = () => {
   return (
     <nav className='nav-bar'>
         <div className="container">
             <ul>
-                <li><Link to={'/'}>• 세부밤문화여행 •</Link></li>
-                <li><Link to={'/page-2'}>• 필리핀사람들의 성격 및 특징 •</Link></li>
-                <li><Link to={'/page-3'}>• 필리핀에서 만난 한글들 •</Link></li>
+                <li><NavLink to={'/'} className={({ isActive }) => isActive ? 'active' : ''}>세부밤문화여행</NavLink></li>
+                <li><NavLink to={'/page-2'} className={({ isActive }) => isActive ? 'active' : ''}>필리핀사람들의 성격 및 특징</NavLink></li>
+                <li><NavLink to={'/page-3'} className={({ isActive }) => isActive ? 'active' : ''}>필리핀에서 만난 한글들</NavLink></li>
             </ul>
             <div className='logo'>세부밤문화투어•세부황제투어•세부에코걸</div>
         </div>
