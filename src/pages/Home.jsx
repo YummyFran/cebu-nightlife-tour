@@ -7,7 +7,7 @@ const Home = () => {
         <Nav />
         <div className="container">
             <p className='subtitle'>아래 메인홈페이지 링크(사진)클릭하시고 <br /> 더 많은 세부밤문화 정보 얻어가세요</p>
-            <a href="https://cebunightguide.com" target='_blank'>
+            <a href="https://www.cebunightguide.com" target='_blank'>
                 <img src={'/banner.png'} alt="banner" className='banner clickable' />
             </a>
             <p className="title">필리핀 여자와 필리핀 밤문화</p>
