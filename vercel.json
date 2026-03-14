@@ -1,0 +1,30 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "cebunightleader.com"
+        }
+      ],
+      "destination": "https://cebunightleader.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.cebunightleader.com"
+        }
+      ],
+      "destination": "https://cebunightleader.com/$1",
+      "permanent": true
+    }
+  ]
+}
+
