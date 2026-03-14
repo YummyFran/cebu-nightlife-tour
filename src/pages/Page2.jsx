@@ -25,7 +25,7 @@ const Page2 = () => {
           <p className='line'>한국에선 아주 심심찮게 보지요</p>
           <p className='line heading'>​3.낭만</p>
           <p className='line'>많은 필리핀분들이 로맨티스트입니다</p>
-          <p className='line'>남녀가 사랑을 고백할때도 이런 로맨틱한 연출을 위해 은근 신경씁니다</p>
+          <p className='line'>남녀가 사랑을 고백할때도 이런 로맨틱한 <br />연출을 위해 은근 신경씁니다</p>
           <p className='line'>부끄러움도 많으신 분들이 이런때는 또 아주 대담합니다</p>
           <p className='line heading'>​4.음악</p>
           <p className='line'>필리핀분들 음악 좋아하는 건 <br />세계적으로도 너무 유명하죠</p>
@@ -61,20 +61,20 @@ const Page2 = () => {
           <p className='line'>그래서 그런지 남녀간에 질투가 심합니다</p>
           <p className='line'>특히 여성의 질투는 어마어마합니다</p>
           <p className='line heading'>​​10.운전습관</p>
-          <p className='line'>필리핀 분들 운전 정말 다시 배워야 할것 같다고 느낀적이 많습니다.</p>
+          <p className='line'>필리핀 분들 운전 정말 다시 배워야 할것 같다고 <br />느낀적이 많습니다.</p>
           <p className='line'>주행중 하이빔은 기본이요..</p>
           <p className='line'>길한가운데다 갑자기 정차하는가 하면</p>
           <p className='line'>코너웍할때도 각을 무시하고 들어오기 일쑤입니다</p>
-          <p className='line'>소위 말하는 1센티 비켜 지나가는 칼치기도 당연한듯 밥먹듯이 하고</p>
+          <p className='line'>소위 말하는 1센티 비켜 지나가는 칼치기도 <br />당연한듯 밥먹듯이 하고</p>
           <p className='line'>주행라인은 그냥 없는 듯 운전합니다</p>
-          <p className='line'>그래도 큰 사고가 거의 없다는 것이 참 미스테리가 아닐 수 없습니다</p>
+          <p className='line'>그래도 큰 사고가 거의 없다는 것이 참 <br />미스테리가 아닐 수 없습니다</p>
           <p className='line heading'>​11.게이</p>
           <p className='line'>필리핀에는 남남커플 여여커플이 많습니다</p>
           <p className='line'>특히 게이들의 경우 필리핀 TV쇼를 <br />장악하고 있을 정도로</p>
           <p className='line'>많은 연예인들이 있으며 정치계에도 많습니다</p>
-          <p className='line'>필리핀분들은 손가락질하고 욕하기 보다는 재밋어하고 특별하다고 생각합니다</p>
-          <p className='line'>필리핀 사람들의 대략적인 성향을 알고나니  세부여행에 더 흥미가 생기셨나요?</p>
-          <p className='line'>필리핀에서 살아보니 필리핀 분들은 제가 생각했던 것보다 훨씬 괜찮은 분들입니다</p>
+          <p className='line'>필리핀분들은 손가락질하고 욕하기 보다는 <br />재밋어하고 특별하다고 생각합니다</p>
+          <p className='line'>필리핀 사람들의 대략적인 성향을 알고나니 <br />세부여행에 더 흥미가 생기셨나요?</p>
+          <p className='line'>필리핀에서 살아보니 필리핀 분들은 제가 <br />생각했던 것보다 훨씬 괜찮은 분들입니다</p>
           <p className='line'>기대하고 오셔도 좋습니다^^</p>
 
         </div>
