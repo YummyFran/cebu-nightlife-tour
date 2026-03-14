@@ -182,7 +182,7 @@ body {
         display: flex;
         align-items: center;
         gap: 1rem;
-        
+
 
         img {
           width: 100%;
@@ -279,40 +279,47 @@ body {
       background-size: cover;
       width: 100%;
       display: flex;
-      flex-direction: column;
       align-items: center;
-      gap: 2rem;
-      
-      height: 80vh;
-      padding-top: 20rem;
+      justify-content: center;
+
+      height: 100vh;
+      padding-top: 8rem;
       color: white;
       position: relative;
       z-index: 3;
 
-      .banner {
-        box-shadow: 0 0 16px 8px white;
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12rem;
+
+        .banner {
+          box-shadow: 0 0 16px 8px white;
+        }
+
+        &::before {
+          content: '';
+          position: absolute;
+          background-color: black;
+          opacity: 0.2;
+          inset: 0;
+          z-index: -1;
+        }
+
+        h2 {
+          font-size: 2.2rem;
+          text-align: center;
+          font-weight: 600;
+          /* margin-bottom: 7rem; */
+        }
+
+        .subtitle {
+          font-size: 1.3rem;
+          line-height: 3;
+        }
       }
 
-      &::before {
-        content: '';
-        position: absolute;
-        background-color: black;
-        opacity: 0.2;
-        inset: 0;
-        z-index: -1;
-      }
-
-      h2 {
-        font-size: 2.2rem;
-        text-align: center;
-        font-weight: 600;
-        margin-bottom: 7rem;
-      }
-
-      .subtitle {
-        font-size: 1.3rem;
-        line-height: 3;
-      }
     }
 
     .line {

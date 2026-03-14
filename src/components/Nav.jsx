@@ -21,6 +21,7 @@ const Nav = () => {
         <ul className={`${isMenuOpen ? "open" : ""}`}>
           <div className="close" onClick={() => setIsMenuOpen(false)}>&times;</div>
           <li><NavLink to={'/'} className={({ isActive }) => `${isActive ? 'active' : ''} header`}>세부밤문화</NavLink></li>
+          <li><NavLink to={'/page-1'} className={({ isActive }) => isActive ? 'active' : ''}>필리핀</NavLink></li>
           <li><NavLink to={'/page-2'} className={({ isActive }) => isActive ? 'active' : ''}>필리핀사람들의 성격 및 특징</NavLink></li>
           <li><NavLink to={'/page-3'} className={({ isActive }) => isActive ? 'active' : ''}>필리핀에서 만난 한글들</NavLink></li>
         </ul>
