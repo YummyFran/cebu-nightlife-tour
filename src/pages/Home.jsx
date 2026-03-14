@@ -1,15 +1,29 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Nav from '../components/Nav'
 
+const breakpoint = 768
+
 const Home = () => {
+  const [isMobile, setIsMobile] = useState(false)
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth <= breakpoint);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, [breakpoint])
+  
   return (
     <div className='main'>
         <Nav />
         <div className="container">
+          <div className='homepage'>
+            <h2>세부에코걸 정보를 찾는 중이신가요?</h2>
             <p className='subtitle'>아래 메인홈페이지 링크(사진)클릭하시고 <br /> 더 많은 세부밤문화 정보 얻어가세요</p>
             <a href="https://www.cebunightguide.com" target='_blank'>
-                <img src={'/banner.png'} alt="banner" className='banner clickable' />
+                <img src={`${isMobile ? '/banner1.0.jpg' : '/banner.png'}`} alt="banner" className={`banner clickable ${isMobile ? "mobile" : ""}`}/>
             </a>
+          </div>
             <p className="title">필리핀 여자와 필리핀 밤문화</p>
 
             <p className='line'>많은 분들이 필리핀을 방문하고자 하실때</p>
