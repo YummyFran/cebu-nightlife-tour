@@ -18,15 +18,18 @@ const Page1 = () => {
 
                     <img src="/banner1.jpg" alt="banner1" className='banner' />
 
-                    <p className="line">사실 필리핀 밤문화가 화려하고 한국보다 <br />
-                    더 많은 업소가 즐비할 것 같지만 업소 숫자나 <br />종사자 수로 보나 한국이</p>
+                    <p className="line">
+                        사실 필리핀 밤문화가 화려하고 한국보다 <br />
+                        더 많은 업소가 즐비할 것 같지만 업소 숫자나 <br />종사자 수로 보나 한국이
+                    </p>
                     <p className="line">전세계에서 손꼽히는 밤문화 성지 입니다.</p>
                     <p className="line">하지만 밤문화를 즐기는 인원이 <br />한국인으로 한정되어 있다면</p>
                     <p className="line">필리핀은 전세계에서 밤문화를 즐기러 온다고 보면</p>
                     <p className="line">이해가 쉽게 되겠지요.</p>
-                    <p className="line">만약에 세부밤문화를 즐기는 도중에도 <br />한국은 짦은 시간에</p>
-                    <p className="line">여성과의 만남이 쉽게 마무리 된다면 <br />필리핀은 그에 비해</p>
-                    <p className="line">파트너가 맘에 들면 긴 시간동안 같이 여자 친구처럼 지낼수가 있지요</p>
+                    <p className="line">
+                        만약에 세부밤문화를 즐기는 도중에도 <br />
+                        한국은 짦은 시간에 만남이 쉽게 마무리 된다면 <br />필리핀은 그에 비해</p>
+                    <p className="line">맘에 들면 긴 시간동안 같이 지낼수가 있지요</p>
                     <p className="line">빈부격차가 한국보다 훨씬 심하기 때문에</p>
                     <p className="line">한국보다 금액을 덜 투자해도 매너 좋고</p>
                     <p className="line">외모가 깔끔하다면 필리핀 <br />여자의마음을 얻기 쉬운데요</p>
