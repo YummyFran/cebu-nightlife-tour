@@ -1,9 +1,19 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { NavLink, useLocation } from 'react-router'
+
+const breakpoint = 768
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const route = useLocation()
+    const [isMobile, setIsMobile] = useState(false)
+  
+    useEffect(() => {
+      const checkMobile = () => setIsMobile(window.innerWidth <= breakpoint);
+      checkMobile();
+      window.addEventListener('resize', checkMobile);
+      return () => window.removeEventListener('resize', checkMobile);
+    }, [breakpoint])
 
   return (
     <nav className={`nav-bar ${route.pathname === "/" ? 'homepage' : ''}`}>
@@ -20,7 +30,11 @@ const Nav = () => {
         </div>
         <ul className={`${isMenuOpen ? "open" : ""}`}>
           <div className="close" onClick={() => setIsMenuOpen(false)}>&times;</div>
-          <li><NavLink to={'/'} className={({ isActive }) => `${isActive ? 'active' : ''}`}>세부밤문화</NavLink></li>
+          <li><NavLink to={'/'} className={({ isActive }) => `${isActive ? 'active' : ''} header-pc`}>
+            {!isMobile && <div className="logo-icon">
+              <img src={'/icon.png'} alt="" />
+            </div>}
+            세부밤문화</NavLink></li>
           <li><NavLink to={'/page-1'} className={({ isActive }) => isActive ? 'active' : ''}>필리핀 여자와 필리핀 밤문화</NavLink></li>
           <li><NavLink to={'/page-2'} className={({ isActive }) => isActive ? 'active' : ''}>필리핀사람들의 성격 및 특징</NavLink></li>
           <li><NavLink to={'/page-3'} className={({ isActive }) => isActive ? 'active' : ''}>필리핀에서 만난 한글들</NavLink></li>
