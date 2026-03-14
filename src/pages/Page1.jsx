@@ -66,11 +66,11 @@ const Page1 = () => {
                     <p className="line">무대에서 비키니 같은 섹시한 옷을 입고 노래에 맞춰</p>
                     <p className="line">섹시 춤을 추는데 정말 춤 하나는 정말 잘 춘답니다.</p>
                     <p className="line">그것도 섹시하게,,,</p>
-                    <p className="line">키는 작지만 비율이 너무나 좋아서 눈 호강 제대로 하실 수 있을겁니다.</p>
+                    <p className="line">키는 작지만 비율이 너무나 좋아서 눈 호강 <br />제대로 하실 수 있을겁니다.</p>
                     <p className="line">예전 20대들은 클럽에서 <br />현지인들 꼬셔 여자친구 처럼</p>
                     <p className="line">지내는 경우가 아주 많았었는데 <br />이제는 클럽이 아니라</p>
                     <p className="line">돈벌기 위해 한국 사람 만나는 <br />경우가 99%가 되었답니다</p>
-                    <p className="line">필리핀 여자를 만나서 로멘스를 꿈꾸는 젊은 청년들의 꿈이 사라진거지요.</p>
+                    <p className="line">필리핀 여자를 만나서 로멘스를 꿈꾸는 <br />젊은 청년들의 꿈이 사라진거지요.</p>
 
                     <img src="/banner4.jpg" alt="banner4" className='banner' />
 
@@ -78,10 +78,11 @@ const Page1 = () => {
                     <p className='line'>단독 숙소를 이용해서 프라이빗하게  편히</p>
                     <p className='line'>쉬었다가는 패키지 코스를 많이 즐겨 찾으십니다.</p>
                     <p className='line'>​필리핀 여자를 알고 필리핀 <br />밤문화를 조금만 습득하신다면</p>
-                    <p className='line'>짧은 필리핀 밤문화 자유여행 <br />  일정 동안 내상 입지 않고</p>
-                    <p className='line'>좋은 추억 남기실 겁니다.</p>
+                    <p className='line'>
+                        짧은 필리핀 밤문화 자유여행 일정 동안 <br />
+                        내상 입지 않고 좋은 추억 남기실 겁니다.</p>
                     <p className='line'>그 나라 문화를 알고 언어를 조금만 습득하신다면</p>
-                    <p className='line'>서로에게 피해를 주지 않고 잊지 못할 추억 만드실 수 있으실겁니다.</p>
+                    <p className='line'>서로에게 피해를 주지 않고 잊지 못할 추억 <br />만드실 수 있으실겁니다.</p>
                 </div>
             </div>
         </div>
