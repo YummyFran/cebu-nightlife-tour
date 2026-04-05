@@ -28,7 +28,7 @@ const Home = () => {
               <a href="https://www.cebunightguide.com" target='_blank' style={{ textDecoration: "none", color: isMobile ? "white" : 'white' }}>
                 <p className='subtitle' style={{ lineHeight: '2', paddingTop: '0.5rem'}}>아래 메인홈페이지 링크(사진)클릭하시고 <br /> 더 많은 세부밤문화 정보 얻어가세요</p>
               </a>
-              <a href="https://www.cebunightguide.com" target='_blank'>
+              <a href="https://www.cebunightguide.com" target='_blank' className='leader'>
                 <img src={`${isMobile ? '/banner1.0.jpg' : '/banner1.0.jpg'}`} alt="banner" className={`banner clickable ${isMobile ? "mobile" : ""}`} />
               </a>
             </div>
