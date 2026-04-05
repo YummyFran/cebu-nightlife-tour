@@ -8,6 +8,7 @@ const Page3 = () => {
 
       <div className="container">
         <div className="wrapper">
+          <h1 className='opacity-0'>필리핀에서 만난 한글들</h1>
           <p className='line'>동남아의 많은 국가들에서 처럼</p>
           <p className='line'>필리핀에도 한류 문화가 깊숙이 자리 잡고 있습니다</p>
           <p className='line'>​K-POP이 익숙한 그들의 레퍼터리이기도 하고</p>

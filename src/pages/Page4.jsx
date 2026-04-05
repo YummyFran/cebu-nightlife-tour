@@ -9,6 +9,7 @@ const Page4 = () => {
 
             <div className="container">
                 <div className="wrapper">
+                    <h1 className="opacity-0">1:1문의</h1>
                     <div className='hero'>
                         <a href="https://www.cebunightguide.com" target='_blank' style={{ textDecoration: "none", color: 'black' }}>
                             <p className='subtitle' style={{ lineHeight: '2' }}>아래 메인홈페이지 링크(사진)클릭하시고 <br /> 더 많은 세부밤문화 정보 얻어가세요</p>

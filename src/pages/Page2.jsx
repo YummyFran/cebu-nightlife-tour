@@ -8,6 +8,7 @@ const Page2 = () => {
 
       <div className="container">
         <div className="wrapper">
+          <h1 className='opacity-0'>필리핀사람들의 성격 및 특징</h1>
           <p className='line'>오늘은 제가 10년간 살면서 느꼈던 필리핀 분들의</p>
           <p className='line'>대략적인 성향, 성격, 특징 등의 대해 올리겠습니다</p>
 

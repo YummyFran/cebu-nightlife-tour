@@ -40,7 +40,7 @@ const Nav = () => {
           <li><NavLink to={'/page-3'} className={({ isActive }) => isActive ? 'active' : ''}>필리핀에서 만난 한글들</NavLink></li>
           <li><NavLink to={'/page-4'} className={({ isActive }) => isActive ? 'active' : ''}>1:1문의</NavLink></li>
         </ul>
-        <h1 className='logo'>세부밤문화•세부에코걸•세부 에스코트걸</h1>
+        <h2 className='logo'>세부밤문화•세부에코걸•세부 에스코트걸</h2>
       </div>
     </nav>
   )
