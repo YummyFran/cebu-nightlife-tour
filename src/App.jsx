@@ -16,10 +16,10 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/page-1' element={<Page1 />}/>
-        <Route path='/page-2' element={<Page2 />}/>
-        <Route path='/page-3' element={<Page3 />}/>
-        <Route path='/page-4' element={<Page4 />}/>
+        <Route path='/philippine-nightlife' element={<Page1 />}/>
+        <Route path='/filipino-personality' element={<Page2 />}/>
+        <Route path='/philippine-hangul' element={<Page3 />}/>
+        <Route path='/inquiry' element={<Page4 />}/>
       </Routes>
     </BrowserRouter>
   )
