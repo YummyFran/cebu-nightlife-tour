@@ -383,7 +383,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        backdrop-filter: brightness(0.5);
+        backdrop-filter: brightness(0.1);
 
         height: 100vh;
         padding-top: 5rem;
