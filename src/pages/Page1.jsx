@@ -4,11 +4,11 @@ import Nav from '../components/Nav'
 const Page1 = () => {
     return (
         <div className="main">
-            <Nav />
+            <Nav title='필리핀 여자와 필리핀 밤문화' />
 
             <div className="container">
                 <div className='wrapper'>
-                    <h1 className="title">필리핀 여자와 필리핀 밤문화</h1>
+                    <p className="title">필리핀 여자와 필리핀 밤문화</p>
 
                     <p className='line'>많은 분들이 필리핀을 방문하고자 하실때</p>
                     <p className='line'>가장 궁금해 하는 두가지 일거라 생각합니다</p>
