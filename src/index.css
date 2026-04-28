@@ -75,7 +75,7 @@ body {
     }
 
     .logo {
-      font-size: 2rem;
+      font-size: 1.7rem;
       color: var(--gray);
       font-weight: 600;
       cursor: pointer;
