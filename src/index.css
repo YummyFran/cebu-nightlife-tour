@@ -255,14 +255,19 @@ body {
         color: inherit !important;
         border-color: white !important;
       }
+
+      .container .logo {
+        opacity: 0;
+      }
     }
 
     .container {
       padding: 0;
 
       .logo {
-        opacity: 0;
-        display: none;
+        /* opacity: 0;
+        display: none; */
+        padding-bottom: 1rem;
       }
 
       .header-lg {
