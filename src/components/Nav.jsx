@@ -3,7 +3,7 @@ import { NavLink, useLocation } from 'react-router'
 
 const breakpoint = 768
 
-const Nav = ({ title = "세부밤문화•세부에코걸•세부 에스코트걸" }) => {
+const Nav = ({ title = "세부에코걸•세부밤문화•세부에스코트걸•황제여행•보홀에코걸•황제투어" }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const route = useLocation()
     const [isMobile, setIsMobile] = useState(false)
